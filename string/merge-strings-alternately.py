@@ -9,7 +9,7 @@ class Solution:
             if i <len1:
                 merged += word1[i]
                 i += 1
-            if j < lens2:
+            if j < len2:
                 merged += word2[j]
                 j += 1
 
