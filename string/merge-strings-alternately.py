@@ -7,10 +7,10 @@ class Solution:
         merged = []
         while i < len1 or j < len2:
             if i <len1:
-                merged += word[i]
+                merged += word1[i]
                 i += 1
             if j < lens2:
-                merged += word[j]
+                merged += word2[j]
                 j += 1
 
         return ''.join(merged)
